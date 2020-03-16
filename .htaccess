@@ -1,0 +1,5 @@
+#Basic Auth
+AuthUserFile /home/.htpasswd
+AuthName "Input ID and Password."
+AuthType Basic
+require valid-user
